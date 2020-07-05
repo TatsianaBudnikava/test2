@@ -1,0 +1,8 @@
+Composite:  When I login as registered UserEmail
+When I enter `${registeredUserEmail}` in  field located `By.xpath(//input[@id="user"])`
+
+Composite:  When I login as registered UserPassword
+When I enter `${registeredUserPass}` in  field located `By.xpath(//input[@class="Input__InputElement-sc-1o6bj35-0 bfCuIo"])`
+
+Composite:  When I fill $FullName in the registration form
+When I enter `<FullName>` in  field located `By.xpath(//input[@id="displayName"])`
